@@ -68,7 +68,9 @@
 
         <div class="section-title">
           <h2>Professional Experience</h2>
-          <p>Below are my most exciting projects and work I have completed over the years</p>
+          <p>Below are my most exciting projects and work I have completed over the years (stand in intro)
+            Note: Visuals to be added instead of all company logo. Mid and End of internship photos will be visual diagrams or demos to represent the work I am talking about.
+          </p>
         </div>
 
         <div class="job-title">
@@ -82,7 +84,10 @@
                   <img src="assets/img/Viasat.png" class="img-fluid" alt="via">
                 </div>
                 <div class="timeline-panel">
-                  <p>At my time at Viasat I was working with a team to improve wifi connectivity on airplanes. We approached this by using Kubernetes</p>
+                  <p>The team I joined at Viasat was working on refactoring the Delta Airline's passenger portal to increase in-flight connectivity.
+                    The goal was to refactor the platform using Kubernetes to allow for faster and more frequent softwarre updates from the grounf to the plane's server.
+                    The beginning of my internship I self-taught myself how to use and work with Docker and Kubernetes so I could effectivelty aid in this effort.
+                  </p>
                 </div>
               </div>
           </div>
@@ -98,7 +103,11 @@
                   <img src="assets/img/Viasat.png" class="img-fluid" alt="via">
                 </div>
                 <div class="timeline-panel">
-                  <p>This will talk about the progress I made about midway through the summer.</p>
+                  <p>Over the course of the summer I worked on many tickets where I would fix bugs involving networking or kubernete's pid creations; However, the main ticket
+                    I worked on was developing a way to control software updates during the flight. During the cruise stage of a flight, software update to the server will decrease the stability 
+                    of the wifi connectivity. The solution I worked on began with creating a new device category (to separate the sofwtare updates from passenger devices and employee equipment). Once the new device 
+                    category was simulated, I was able to reconfigure the network firewalls to recognize this device and block all traffic to it based on the flight phase - allow traffic furing boarding, block during cruise.
+                  </p>
                 </div>
               </div>
           </div>
@@ -111,7 +120,11 @@
                   <img src="assets/img/Viasat.png" class="img-fluid" alt="via">
                 </div>
                 <div class="timeline-panel">
-                  <p>By the end of my internship here is all I accomplished...</p>
+                  <p>The hardest part of this project was the testing. I was working on a linux based virtual machine that could simulate a flight. During the simualtion I was able to 
+                    switch the flight phases and send packets to the device category. A corner case I discovered was the switching of phases mis-update. Kubernetes loads the update/pod without creating 
+                    a back up so if the update does not finish then the pod will fail and not roll-back to the previous update. Thus we had to implement a time buffer and a roll-back option so if 
+                    an update were to be blocked mid-way the device would store and use the previous update. 
+                  </p>
                 </div>
               </div>
           </div>
@@ -127,7 +140,9 @@
                   <img src="assets/img/sandia.png" class="img-fluid" alt="san">
                 </div>
                 <div class="timeline-panel">
-                  <p>At my time at Sandia I was working with a team to predict trajectory behavior using ML tools and techniques</p>
+                  <p>I worked on a project where I was given a set of flight trajectories and told to find something interesting. So I began with filtering and clustering my trajectories
+                    with DBSCAN to look for polygonal shapes. 
+                  </p>
                 </div>
               </div>
           </div>
