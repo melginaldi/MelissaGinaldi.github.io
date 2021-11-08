@@ -693,6 +693,50 @@ section {
   background: #fff;
   border: 2px solid #2bb6e5ff;
 }
+.resume .timeline > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+.resume .timeline-panel{
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.resume .timeline-panel p {
+  padding-left: 20px;
+}
+.resume .timeline-inverted{
+  text-align: right;
+}
+.resume .timeline-inverted p{
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: right;
+}
+.resume h2{
+  text-align: center;
+}
+
+.resume .job-title{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.resume .job-title h2::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 310px;
+  height: 2px;
+  background: #2bb6e5ff;
+  bottom: 0;
+  left: calc(40% - 25px);
+}
 
 /*--------------------------------------------------------------
 # Services
