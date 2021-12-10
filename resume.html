@@ -68,53 +68,72 @@
 
         <div class="section-title">
           <h2>Professional Experience</h2>
-          <p>Below are my most exciting projects and work I have completed over the years (stand in intro)
-            Note: Visuals to be added instead of all company logo. Mid and End of internship photos will be visual diagrams or demos to represent the work I am talking about.
-          </p>
         </div>
 
-        <div class="job-title">
-          <h2>Software Engineer Intern</h2>
-        <div>
+        <div class=space> </div>
 
-        <div class="row"> 
-          <div class="col-lg-6">
-              <div class="timeline-reg">
-                <div class="timeline-image">
-                  <img src="assets/img/Viasat.png" class="img-fluid" alt="via">
-                  <h4> May 2021 - Aug 2021</h4>
-                </div>
-                <div class="timeline-panel">
-                  <p>The team I joined at Viasat was working on refactoring the Delta Airline's passenger portal to increase in-flight connectivity.
-                    The goal was to refactor the platform using Kubernetes to allow for faster and more frequent software updates from the ground to the plane's server.
-                    The beginning of my internship I self-taught myself how to use and work with Docker and Kubernetes so I could effectivelty aid in this effort.
-                  </p>
-                </div>
+        <section class="py-5 bg-light">
+          <div class="container px-5 my-5">
+              <div class="row gx-5 align-items-center">
+                  <div class="col-lg-6"><img class="rounded mb-5 mb-lg-0" width = "450" src="assets/img/NewViasat.png" alt="..." /><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/img/flight-phases.jpeg" alt="..." /></div>
+                  <div class="col-lg-6">
+                      <h3 class="fw-bolder">Software Engineering Intern</h3>
+                      <h5 class="fw-bolder">May 2021 - Aug. 2021</h5>
+                      <p class="lead text-muted mb-0">I spent my summer at Viasat developing and debugging Kubernetes infrastructure and Networking issues on a CintOS Linux bare metal environment. One of the main tasks I worked on was 
+                        researching and developing a mechanism to control software updates during flight phases. Software updates require the server on the plane to make communication with the server on the ground, causing the inflight connectivity to become
+                      less stable. While in the cruise phase it is important for customers to have the strongest connectivity possible. Thus, I worked with a few teammates to reconfigure the server's firewall and device categories in order for software updates to be blocked when in 
+                      specific phases like cruise. </p>
+                  </div>
               </div>
           </div>
-          <div class="col-lg-6">
-            <img src="assets/img/flight-phases.jpeg" class="img-fluid" alt="via">
-          </div>
-        </div>
+        </section>
 
-        <div class="job-title">
-          <h2>Cyber Security Intern</h2>
-        <div>
-        <div class="row"> 
-          <div class="col-lg-6">
-              <div class="timeline-reg">
-                <div class="timeline-image">
-                  <img src="assets/img/sandia.png" class="img-fluid" alt="san">
-                  <h4> May 2020 - Dec 2020</h4>
-                </div>
-                <div class="timeline-panel">
-                  <p>I worked on a project where I was given a set of flight trajectories and told to find something interesting. So I began with filtering and clustering my trajectories
-                    with DBSCAN to look for polygonal shapes. 
-                  </p>
-                </div>
+        <section class="py-5">
+          <div class="container px-5 my-5">
+              <div class="row gx-5 align-items-center">
+                  <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/img/NewSandia.png" alt="..." /><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/img/RFC.jpeg" alt="..." /></div>
+                  <div class="col-lg-6">
+                      <h3 class="fw-bolder">Cyber Security Intern</h3>
+                      <h5 class="fw-bolder">May 2020 - Dec. 2020</h5>
+                      <p class="lead text-muted mb-0">At Sandia I developed a hierarchical algorithm that broke flight trajectories into straight and curved segments. This allowed me to identify angles and curves within the trajectories and 
+                        eventually allowed me to create a clustering algorithm that clustered trajectories based on polygonalness. I was able to cluster out staright flights from zig-zagged flights from flights with shapes like traingles or squares. 
+                        </p>
+                        <p class="lead text-muted mb-0"> I also got the chance to take my project a step further and in a different direction. I taught myself machine learning tools like PCA and Random forest classifiers on scikit-learn to analyze the ability to predict a trajectory's course. I implemented a curve-interpolation algorithm 
+                          in Python that took in the previous n points of the trajectory and predicted where the next point would be based on the input. By the end of my project, I was able to predict the next point of a trajectpry with 78% accuracy.  </p>
+                  </div>
               </div>
           </div>
-        </div>
+        </section>
+
+        <section class="py-5 bg-light">
+          <div class="container px-5 my-5">
+              <div class="row gx-5 align-items-center">
+                  <div class="col-lg-6"><img class="rounded mb-5 mb-lg-0" height="400" src="assets/img/FF.png" alt="..." /></div>
+                  <div class="col-lg-6">
+                      <h3 class="fw-bolder">Final Fantasy Project</h3>
+                      <p class="lead text-muted mb-0">Working on a team of 3, I developed a game engine and text-based graphics for a Final Fantasy themed video game in Ocaml. The game included 6 options for character choice, 3 boss levels, and over 30 different spells and powers.
+                        Each state of the game required animation and calculations for health and magic.
+                      </p>
+                      <p class="lead text-muted mb-0"> Source Code: <a href="https://github.com/ryan-dennis/FinalFantasyMMMCX">Github</a></p>
+                  </div>
+              </div>
+          </div>
+        </section>
+
+        <section class="py-5">
+          <div class="container px-5 my-5">
+              <div class="row gx-5 align-items-center">
+                  <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/img/Reaserch.jpg" alt="..." /></div>
+                  <div class="col-lg-6">
+                      <h3 class="fw-bolder">Researcher in Computer Networks</h3>
+                      <h5 class="fw-bolder">Aug 2021 - Present</h5>
+                      <p class="lead text-muted mb-0">I am currently working with Professor Rachit Agarwal and PHD student Saksham Agarwal on developing a form of synchronous TCP. 
+                        My role on the team is to help generalize the protocol from a two-tier topology to a three-tier topology. 
+                      </p>
+                  </div>
+              </div>
+          </div>
+        </section>
 
       </div>
     </section><!-- End Resume Section -->
